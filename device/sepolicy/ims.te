@@ -1,0 +1,3 @@
+allow ims self:capability { net_raw net_admin };
+get_prop(ims, diag_prop);
+set_prop(ims, diag_prop);
